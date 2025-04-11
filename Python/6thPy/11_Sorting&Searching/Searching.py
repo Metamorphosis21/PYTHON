@@ -1,9 +1,9 @@
 
-def linear_search(arr, key):
-    for i in range (len(arr)):
-        if key == arr[i]:
-            return i
-    return -1
+def linear_search(arr, n):
+    for i in arr:
+        if i == n:
+            return True
+    return False
 a = [1,2,3,4,5]
 res = linear_search(a, 2)
 print(res)
